@@ -14,12 +14,12 @@ class Rectangle implements Resizable {
 
     public void resizeWidth(int w) {
         width = w;
-        System.out.println("Width resized to: " + this.width);
+        System.out.println("Width resized to: " + width);
     }
 
-    public void resizeHeight(int height) {
+    public void resizeHeight(int h) {
         height = h;
-        System.out.println("Height resized to: " + this.height);
+        System.out.println("Height resized to: " + height);
     }
 
     public void displayDimensions() {
